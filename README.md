@@ -1,10 +1,33 @@
-# 本地音乐库使用说明（README）
+# 本地音乐库 fmusic
 
-这是从 B 站收藏夹整理出来的本地音乐库：**390 条记录、362 个唯一音频文件、约 14.8 GB**。
+![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)
+![Tracks](https://img.shields.io/badge/tracks-390-1db954)
+![Audio](https://img.shields.io/badge/audio-14.8%20GB-1db954)
+![License](https://img.shields.io/badge/audio-not%20in%20repo-lightgrey)
+
+从 B 站收藏夹整理出来的本地音乐库：**390 条记录、362 个唯一音频文件、约 14.8 GB**。
 优先从网易云第三方解析拿 FLAC / 母带，平台没有的歌用 B 站原视频音频兜底；
 每条都已写入封面、歌词（`.lrc` 同名文件）、歌手、专辑、年份标签。
 
 > 音频文件本身不进 Git（见文末「版本管理」）；这份 README 和清单是给人和 AI 的操作手册。
+
+```bash
+git clone https://github.com/shanyaojinjn/fmusic.git
+cd fmusic
+pip install -r requirements.txt
+```
+
+## 目录
+
+- [快速开始](#一快速开始)
+- [搜索音乐](#二搜索音乐)
+- [目录结构](#三目录结构)
+- [清单字段](#四清单字段)
+- [音质策略](#五音质策略)
+- [往库里加一首歌](#六往库里加一首歌)
+- [脚本一览](#七脚本一览tools)
+- [版本管理](#八版本管理git)
+- [已知限制](#九已知限制)
 
 ---
 
