@@ -1,0 +1,24 @@
+# 音乐本体：不进 Git，可按 README 重新下载
+downloads/**/*.flac
+downloads/**/*.mp3
+downloads/**/*.m4a
+downloads/**/*.ogg
+downloads/**/*.wav
+downloads/**/*.aac
+downloads/**/*.opus
+downloads/**/*.webm
+downloads/**/*.part
+downloads/**/*.lrc
+
+# 封面 / 歌词抓取缓存
+_research/tag_cache/
+
+# 下载器与播放器程序（体积大，可重新下载）
+bbdown/
+lx-music/
+
+# 运行产物
+__pycache__/
+*.pyc
+*.log
+tools/resolve_out.txt
