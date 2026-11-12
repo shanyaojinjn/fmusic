@@ -3,7 +3,8 @@
 ![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)
 ![Tracks](https://img.shields.io/badge/tracks-390-1db954)
 ![Audio](https://img.shields.io/badge/audio-14.8%20GB-1db954)
-![License](https://img.shields.io/badge/audio-not%20in%20repo-lightgrey)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Audio](https://img.shields.io/badge/audio-not%20in%20repo-lightgrey)
 
 从 B 站收藏夹整理出来的本地音乐库：**390 条记录、362 个唯一音频文件、约 14.8 GB**。
 优先从网易云第三方解析拿 FLAC / 母带，平台没有的歌用 B 站原视频音频兜底；
